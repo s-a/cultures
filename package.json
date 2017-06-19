@@ -1,0 +1,34 @@
+{
+  "name": "cultures",
+  "version": "1.0.0",
+  "description": "Global culture and region info in JSON format.",
+  "main": "cultures-full.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/cultures.git"
+  },
+  "keywords": [
+    "EnglishName",
+    "DisplayName",
+    "NativeName",
+    "TwoLetterISORegionName",
+    "ThreeLetterISORegionName",
+    "ThreeLetterWindowsRegionName",
+    "IsMetric",
+    "GeoId",
+    "CurrencyEnglishName",
+    "CurrencyNativeName",
+    "CurrencySymbol",
+    "ISOCurrencySymbol"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/cultures/issues"
+  },
+  "homepage": "https://github.com/s-a/cultures#readme"
+}
